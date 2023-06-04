@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #f1f6f9, #e1f2f6, #d2efee, #c6eae1, #c2e5ce, #c5e4c6, #c9e3be, #cfe1b6, #d4e5b9, #d9eabc, #deeebe, #e3f2c1);
+}
+
+h1{
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+/* nav */
+nav{
+    background-color: transparent;
+}
+
+nav .logo-text{
+    color:rgb(33, 42, 62) ;
+    font-size: 1.5em;
+}
+nav .nav-link{
+    color: rgb(33, 42, 62);
+}
+nav .nav-link:hover{
+    color: #A3B43E;
+}
+nav button i.uil{
+    font-size: 30px;
+    color:rgb(33, 42, 62) ;
+}
+
+/* home */
+#home .content-box{
+    /* border: 1px solid black; */
+    width: 450px;
+    height: 250px;
+}
+#home .content-box .btn{
+    background-color:rgb(33, 42, 62);
+    color: rgb(241, 246, 249);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#home .content-box a{
+    font-size: 1rem;
+}
+#home img{
+    width: 500px;
+    height: auto;
+}
+#home .contact img{
+    width: 40px;
+    height: auto;
+    padding: 4px;
+    margin-right: 10px;
+    transition: 0.5s;
+    background-color: #A3B43E;
+    border-radius: 50%;
+}
+#home .contact img:hover{
+    transform: translateY(-15px);
+}
+#home .profile img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+/* about me */
+#aboutme .btn{
+    background-color:rgb(33, 42, 62) ;
+    color: rgb(241, 246, 249);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#aboutme .aboutme img{
+    width: 350px;
+    height: auto;
+}
+#aboutme .bio{
+    letter-spacing: 0.5px;
+}
+#aboutme img {
+    width: 300px;
+}
+#aboutme .content{
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#aboutme .coding{
+    background-color:rgb(225, 238, 221);
+}
+#aboutme .design {
+    background-color: rgb(227, 242, 193);
+}
+#aboutme .creative {
+    background-color: rgb(240, 160, 75);
+}
+#aboutme .content p{
+    font-size: 0.7em;
+}
+
+/* skill */
+#skill .skill-box{
+    width: 250px;
+    height: 450px;
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+#skill .skill-box span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#skill .skill-box:hover{
+    transform: scale(1.1);
+    background-color: rgb(252, 177, 157);
+}
+#skill .frontend{
+    background-color:rgb(227, 242, 193) ;
+}
+#skill .frontend i{
+    color: green;
+    font-size: 1.3rem;
+}
+#skill .frontend .progress-bar{
+    background-color:rgb(24, 58, 29);
+}
+#skill .uiux {
+    background-color: rgb(241, 246, 249)
+}
+#skill .uiux i {
+    color: rgb(57, 72, 103);
+    font-size: 1.3rem;
+}
+#skill .uiux .progress-bar {
+    background-color:rgb(33, 42, 62);
+}
+#skill .backend {
+    background-color:rgb(240, 160, 75);
+}
+#skill .backend i {
+    color: rgb(255, 217, 61);
+    font-size: 1.3rem;
+}
+#skill .backend .progress-bar {
+    background-color:rgb(155, 164, 181);
+}
+
+/* educations */
+#education .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 10px;
+}
+#education .timeline{
+    background-color:rgb(227, 242, 193);
+    padding: 1.9rem 0.95rem;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+#education .timeline .timeline-item{
+    position: relative;
+    padding-left: 2.5rem;
+    padding-bottom: 1.9rem;
+}
+#education .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+#education .timeline-item::before {
+    content: '';
+    width: 3px;
+    position: absolute;
+    height: 100%;
+    left: 1rem;
+    background-color: rgb(33, 42, 62);
+    top: 0;
+}
+#education .timeline .timeline-icon{
+    position: absolute;
+    left: 0.3rem;
+    top: 0;
+    font-size: 1.5rem;
+    background-color: rgb(227, 242, 193);
+    color: rgb(240, 160, 75);
+}
+
+/* Projects */
+#project .control ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background:#A3B43E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    font-weight: bold;
+}
+#project .control ul li:hover{
+    color: rgb(155, 164, 181);
+}
+#project .control ul li:hover::after {
+    width: 100%;
+}
+
+#project .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#project .item{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(33, 42, 62);
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+    width: 205px;
+    height: 300px;
+}
+
+#project .item a{
+    color: rgb(227, 242, 193);
+}
+
+#project .card-title{
+    color: rgb(241, 246, 249);
+}
+
+#project .item.show{
+    animation: show 1s ease 0s 1 forwards;
+    transform-origin: center;
+}
+#project .item.hide{
+    animation: hide .5s ease 0s 1 forwards;
+    transform-origin: center;
+}
+
+@keyframes hide{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+}
+@keyframes show {
+    0% {
+        transform: scale(0);
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Contact */
+#contact .contact-text div .fa {
+    font-size: 23px;
+    color:rgb(33, 42, 62);
+    background-color:#A3B43E;
+    border-radius: 50%;
+    padding: 10px;
+}
+#contact .contact-box{
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    width: 450px;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+#contact .contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(241, 246, 249);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(241, 246, 249);
+    
+}
+#contact .contact-box button{
+    background-color: #A3B43E;
+    color: rgb(33, 42, 62);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#contact .contact-text-box{
+    font-size: 30px;
+}
+#contact .contact-text-box i{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(33, 42, 62);
+}
+#contact hr{
+    width: 150px;
+    height: 2px;
+    color:rgb(155, 164, 181);
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/* Footer */
+footer{
+    background-color:#A3B43E;
+    color: rgb(33, 42, 62);
+}
+
+
+
+
+
+
+
+

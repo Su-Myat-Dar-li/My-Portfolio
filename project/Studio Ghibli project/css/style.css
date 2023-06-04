@@ -1,0 +1,88 @@
+/* 
+font-family: 'Abel', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+ */
+ /*  <i class="bi bi-chevron-right"></i> (>)
+    <i class="bi bi-text-right"></i>  (menu)
+ */
+
+body{
+    background-image:linear-gradient(
+        rgba(4,9,30,0.3),
+        rgba(4,9,30,0.3)
+    ), url(../img/Daily\ Sketches-\ Ghibli\,\ Surendra\ Rajawat.jpg);
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+/* nav */
+.navbar-nav .nav-link{
+    margin-left: 30px;
+    color:rgb(255, 255, 255) ;
+}
+.navbar-nav .nav-link:hover{
+    color:#017143;
+
+}
+
+/* home */
+#home pre{
+    width: 500px;
+    height: 160px;
+    font-family: 'Acme', sans-serif;
+    margin-left: 140px;
+    letter-spacing: 0.2em;
+    color: #FAEAB1;
+}
+#home .para-box p{
+    width: 180px;
+    height: 60px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 0.02em;
+    color: #ffff;
+}
+#home a.stories{
+    cursor: pointer;
+}
+
+#home .card-img img{
+    position: absolute;
+    width: 140px;
+    height: 210px;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+#home .card-img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#home .card2{
+    margin-left: 190px;
+}
+#home .card3{
+    margin-left: 380px;
+}
+#home .card4{
+    margin-left: 570px;
+}
+.card-info img{
+    width: 220px;
+    height: 330px;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.par-box{
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 0.05em;
+    color: #ffff;
+}
+.button{
+    /* background-color:black;  */
+    color: #ffff;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.7);
+}
+
+

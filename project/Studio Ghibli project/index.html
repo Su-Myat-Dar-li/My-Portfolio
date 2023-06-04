@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Oswald:wght@500&family=Saira+Condensed&display=swap" rel="stylesheet">
+    
+</head>
+<body >
+    <div class="container">
+    <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#" style="font-family: 'Oswald', sans-serif;color: rgb(255, 255, 255);">Studio Ghibli</a>
+                <div class="navbar-nav ms-auto fs-6" style="font-family: 'poppin', sans-serif">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">What's New</a>
+                </div>
+            </div>
+        </nav>
+        <!-- home section-->
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="content-box d-flex justify-content-center fs-1 fw-bold pt-2">
+                            <pre>Watch the best
+        of Studio Ghibli
+                Now!</pre>
+                        </div>
+                        <div class="para-box d-flex justify-content-start my-2">
+                            <p class="">Remember or find out about all the fantastic stories in this universe!</p>
+                        </div>
+                        <a href="https://en.wikipedia.org/wiki/Studio_Ghibli" class="btn btn-success rounded-pill position-absolute button" target="_blank">Learn More</a>   
+                        <a class="stories d-flex justify-content-end fs-5 text-decoration-none" style="color: wheat;">stories <i class="bi bi-chevron-right"></i> </a>   
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-info d-flex  justify-content-center">
+                            <img src="./img/kimi no nawa.jpg" alt="" class="anime" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card-img d-flex">
+                            <img src="./img/12 Favorite Japanese Movies to Watch.jpg" alt="" class="card1" onclick="imgSlider('./img/12 Favorite Japanese Movies to Watch.jpg');">
+                            <img src="./img/The Secret World of Arrietty (2010).jpg" alt="" class="card2"  onclick="imgSlider('./img/The Secret World of Arrietty (2010).jpg')">
+                            <img src="./img/I Want To Eat Your Pancreas.jpg" alt="" class="card3" onclick="imgSlider('./img/I Want To Eat Your Pancreas.jpg')">
+                            <img src="./img/kimi no nawa.jpg" alt="" class="card4" onclick="imgSlider('./img/kimi no nawa.jpg');">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="par-box">
+                            <p class="par fs-6" id="par-demo-1">Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person</p>
+                            
+                        </div>
+                        <a href="https://channelmyanmar.org/your-name-2016/" class="btn btn-success rounded-pill position-absolute button" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- javaScript -->
+    <script type="text/javaScript">
+        function imgSlider(anything) {
+            document.querySelector('.anime').src = anything;
+       }
+        
+        
+    </script>
+</body>
+</html>
